@@ -86,6 +86,17 @@ a {text-decoration: none; }
     }
   }
 
+@media only screen and (min-width: 1200px) {
+    .footer  {display: flex;
+        margin-top: 60px;
+        background-color: greenyellow;
+        flex-direction: column;
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+       
+    }
+
 h1 { font-family: Arial, Helvetica, sans-serif;}
 
 .footer  {display: flex;
